@@ -1,0 +1,58 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.temp {
+  font-weight: 300;
+  font-size: 80px;
+  margin-right: 50px;
+}
+
+.other {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.other div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 13px;
+}
+
+.other img {
+  width: 25px;
+  margin-right: 13px;
+  color: #6e6e6e;
+}
+
+.other span {
+  color: #6e6e6e;
+  font-size: 20px;
+}
+
+.weaterIcon {
+  width: 200px;
+}
+
+@media screen and (max-width: 550px) {
+  .weaterIcon {
+    width: 100px;
+  }
+  .main {
+    margin-top: 25px;
+  }
+  .temp {
+    font-size: 60px;
+    margin-right: 10px;
+  }
+  .other span {
+    font-size: 16px;
+  }
+}

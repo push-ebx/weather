@@ -1,0 +1,17 @@
+.input {
+  border: none;
+  border-bottom: 1px solid #1e1e1e;
+  outline-style: none;
+  text-align: center;
+  width: 250px;
+}
+
+div {
+  text-align: center;   
+}
+
+@media screen and (max-width: 550px) {
+  div {
+    font-size: 25px;   
+  }
+}
